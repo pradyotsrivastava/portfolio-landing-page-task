@@ -106,6 +106,7 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(
     225deg,
@@ -148,7 +149,7 @@ const Contact = () => {
   };
 
   return (
-    <Container id="projects">
+    <Container>
       <Wrapper>
         <Title>Contact</Title>
         <Desc>

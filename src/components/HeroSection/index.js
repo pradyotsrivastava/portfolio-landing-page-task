@@ -34,7 +34,7 @@ const HeroSection = () => {
                 options={{
                   strings: Bio.name,
                   autoStart: true,
-                  // loop: true,
+                  loop: true,
                 }}
               />
             </Title>
